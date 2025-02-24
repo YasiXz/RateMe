@@ -1,0 +1,122 @@
+body {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 176;
+    font-style: normal;
+    font-variation-settings:"wdth" 85.5;
+
+    background-image: url('../index/Logo/BG.png');
+    background-size:contain; 
+    background-repeat: no-repeat; /* Prevent repetition */
+    background-position: top; 
+    background-color: #2A41B7;
+}
+
+#services {
+  color: white;
+  padding-bottom: 300px;
+}
+#contact
+{
+  color: white;
+  padding-bottom: 300px;
+}
+
+.service-category {
+  margin-bottom: 40px;
+  
+}
+
+.service-heading {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 30px;
+  color: white;
+  
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+hr {
+  border: 1px solid white;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: #2b99ff;
+}
+  
+
+.MainLogo {
+  animation: zoomInOut 4s infinite alternate ease-in-out;
+  transform-origin:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/* content css */
+.categories{
+  padding-top: 2000px;
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: 100px;
+  color: #31CCCA;
+  
+}
+.flex-container {
+  display: flex;
+  align-items: center; 
+  
+}
+
+.flex-item {
+  width: 130px; 
+  text-align: center; 
+  padding-left: 60px;
+}
+
+.grid-item img {
+  width: 90%; 
+  margin-bottom: 0px; /* Adds space between the image and the text */
+}
+
+.grid-item p {
+  font-size: 20px; /* Adjust font size for the text */
+}
+
+.Foods{
+  padding-left: 37%;
+}
+.Digital{
+  padding-left: 23%;
+}
+
+/* Keyframes for zoom in and out */
+@keyframes zoomInOut {
+  0% {
+      transform: scale(1) ; 
+  }
+  50% {
+      transform: scale(1.2) ; 
+  }
+  75% {
+    transform: scale(1); /* Zoom out */
+}
+  100% {
+      transform: scale(0.5) rotate(180deg); 
+  }
+}
